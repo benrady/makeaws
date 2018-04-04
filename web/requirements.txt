@@ -1,0 +1,2 @@
+awscli==1.14.70
+livereload==2.5.1

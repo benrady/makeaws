@@ -1,0 +1,10 @@
+{
+    "WebsiteConfiguration": {
+        "ErrorDocument": {
+            "Key": "error.html"
+        },
+        "IndexDocument": {
+            "Suffix": "index.html"
+        }
+    }
+}
