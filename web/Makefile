@@ -59,7 +59,7 @@ deploy: .deps ## Deploy webapp to S3 bucket
 		--region $(REGION) \
 		--acl public-read
 
-bucket: $(BUCKET_INFO) $(WEBSITE_INFO) ## Create a new S3 bucket using the configuration in conf/*
+bucket: | $(BUCKET_INFO) $(WEBSITE_INFO) ## Create a new S3 bucket using the configuration in conf/*
 	@echo Website URL: http://$(BUCKET).s3-website-$(REGION).amazonaws.com
 
 server: .deps ## Run a development web server with livereload on port 35729
