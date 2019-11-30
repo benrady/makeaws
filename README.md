@@ -2,7 +2,7 @@
 
 Make is good at two things:
 
-*   Resolving dependent tasks
+*   Resolving dependent tasks, possibly in parallel
 *   Transforming stuff into other stuff
 
 If we think of the AWS command line tool as a sort of compiler, and the configuration files it uses as source code, then the output from those commands could be thought of as a sort of binary artifact...one that represent the assets that are created in AWS when the commands are run.
